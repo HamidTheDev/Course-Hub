@@ -1,0 +1,47 @@
+.course-card {
+  min-height: 65vh;
+  max-height: 65vh;
+}
+
+.courses-page {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4vh;
+}
+
+.main-hr {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  right: 50vw;
+  min-width: 70vw;
+}
+
+.hr-tag {
+  position: relative;
+  top: 50px;
+
+}
+
+.enroll {
+  background-color: #17d6a0;
+  border: none;
+  padding: 0 25px;
+}
+
+#root>div>div>div.max-w-screen-xl.courses-page.grid.lg\:grid-cols-3.sm\:grid-cols-2.mx-auto>div:nth-child(3)>div.card.w-96.course-card.bg-base-100.shadow-xl {
+  margin-top: 26px;
+}
+
+
+
+@media screen and (max-width:768px) {
+  .main-hr {
+    right: 0;
+    min-width: 50vw;
+  }
+
+  .card {
+    max-width: 90vw;
+  }
+}

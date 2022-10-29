@@ -1,0 +1,73 @@
+.parent{
+    position: relative;
+    max-height: 100vh;
+    min-height: 100vh;
+    position: fixed;
+}
+
+
+.text{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.description h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+.description p{
+    padding: 20px;
+    color: white;
+    width: 70%;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.button{
+    margin-bottom: -2%;
+}
+
+.sbutton{
+    background-color: #dd3333;
+    padding: 9px 32px ;
+    border-radius: 5px;
+    color: white;
+    margin-right: 20px;
+}
+.bbutton{
+    border: 2px solid white;
+    padding: 7px 27px ;
+    border-radius: 5px;
+    color: white;
+
+}
+.sbutton:hover{
+    background-color: #ff6666;
+    color: white;
+}
+
+.bbutton:hover{
+    background-color: white;
+    color: #dd3333;
+}
+
+.img{
+    min-height: fit-content;
+    min-width: fit-content;
+    margin-top: 50px;
+}

@@ -1,0 +1,14 @@
+.sidebar{
+    position: relative;
+    top: 8vh;
+}
+
+.category{
+    color: #058dcb;
+}
+
+.download{
+    position: relative;
+    left: 5%;
+    bottom: 4%;
+}
