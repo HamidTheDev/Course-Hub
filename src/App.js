@@ -45,7 +45,7 @@ function App() {
         {
           path: '/category/:gory',
           loader: ({ params }) => {
-            return (fetch("https://server-liard-chi.vercel.app/products/"), params)
+            return params;
           },
           element: <Category></Category>
         },

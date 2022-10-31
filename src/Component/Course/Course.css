@@ -1,6 +1,6 @@
 .course-card {
   min-height: 65vh;
-  max-height: 65vh;
+  max-height: fit-content;
 }
 
 .courses-page {
